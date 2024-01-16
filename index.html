@@ -3,32 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- seo 적용 -->
-    <!-- 사용자에게 검색결과를 표시할 때 활용 -->
+    <!-- seo적용 -->
+    <!-- 사용자에게 검색결과에 표시할때 활용 -->
     <meta
       name="description"
       content="portfolio site for webdesign, publishing, development"
     />
-    <!-- 웹페이지의 관련된 키웓를 정의 -->
+    <!-- 웹페이지와 관련된 키워드를 정의 -->
     <meta name="keywords" content="web designer, publisher, developer" />
-    <!-- fontaswome -->
+    <!-- css -->
+    <!-- font-aweaome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
       integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
       crossorigin="anonymous"
     />
-    <!-- 스와이퍼적용 -->
+    <!-- 스와퍼적용 -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <!-- css -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/responsive.css" />
     <!-- js적용 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <title>My Design Portfolio</title>
   </head>
   <body>
@@ -39,18 +40,10 @@
           <i class="fas fa-bars"></i>
         </button>
         <ul class="main-menu">
-          <li>
-            <a href="#">home</a>
-          </li>
-          <li>
-            <a href="#">work</a>
-          </li>
-          <li>
-            <a href="#">about</a>
-          </li>
-          <li>
-            <a href="#">contact</a>
-          </li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
         </ul>
         <ul class="social-menu">
           <li>
@@ -64,8 +57,28 @@
           </li>
         </ul>
       </nav>
-      <!-- 타이틀 -->
-      <div class="header-title"></div>
+      
     </header>
+    <div class="header-bottom">
+      <h1>My Design Portfolio</h1>
+      <h2>Design solutions for Your besiness</h2>
+    </div>
+    <!-- feature -->
+    <section class="feature">
+      <ul class="container feature-list">
+        <li class="item">
+          <a href="#"><img src="images/feature_icon_web.png" alt="웹아이콘"></a>
+          <h3>web design</h3>
+        </li>
+        <li class="item">
+          <a href="#"><img src="images/feature_icon_graphic.png" alt="웹아이콘"></a>
+          <h3>web design</h3>
+        </li>
+        <li class="item">
+          <a href="#"><img src="images/feature_icon_video.png" alt="웹아이콘"></a>
+          <h3>web design</h3>
+        </li>
+      </ul>
+    </section>
   </body>
 </html>
