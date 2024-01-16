@@ -1,0 +1,12 @@
+@charset "utf-8";
+@media all and (max-width: 1110px) {
+    .container{
+        width: 100%;
+        /* margin: 0 auto; */
+        /* background-color: rgb(250,212,212); */
+        padding: 0 15px;
+    }
+    nav{
+        display: flex;
+    }
+}
