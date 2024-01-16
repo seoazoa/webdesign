@@ -98,6 +98,7 @@ h2{
     align-items: center;
     border-right: 1px solid #fff;
     flex: 1;
+    flex-direction: column;
 }
 .feature-list .item:first-child{
     border-left: 1px solid #fff;
@@ -114,4 +115,46 @@ h2{
     font-size: 20px;
     line-height: 20px;
 
+}
+/* services */
+.services{
+    padding: 50px 0;
+}
+.services h1{
+    margin-bottom: 20px;
+}
+.services .contents{
+    display:flex;
+    justify-content: space-between;
+}
+.services .contents div{
+    width: 540px;
+}
+.services .contents div p{
+    word-break: break-all;
+}
+/* portfolio */
+.portfolio{
+    background-color: #d7d8d9;
+    padding: 50px 0;
+}
+.portfolio h1{
+    margin-bottom: 30px;
+}
+.swiper-slide{
+    position: relative;
+}
+.caption{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    /* width: 100%; */
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 254px;
 }
